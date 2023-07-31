@@ -1,0 +1,5 @@
+Script started on 2023-07-19 09:51:27-07:00 [TERM="screen.xterm-256color" TTY="/dev/pts/9" COLUMNS="270" LINES="22"]
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ nohup python dummy_job.py b[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on 2023-07-19 09:51:40-07:00 [COMMAND_EXIT_CODE="0"]

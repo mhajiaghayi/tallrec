@@ -1,0 +1,693 @@
+Script started on 2023-07-22 12:55:26-07:00 [TERM="screen.xterm-256color" TTY="/dev/pts/9" COLUMNS="270" LINES="54"]
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ [K[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ 
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ 
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ 
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ poip [K[K[K[K[Ki[Kpip freeze
+accelerate==0.20.3
+aiofiles==23.1.0
+aiohttp==3.8.4
+aiosignal==1.3.1
+altair==5.0.1
+anyio==3.7.0
+appdirs==1.4.4
+asttokens==2.2.1
+async-timeout==4.0.2
+attrs==23.1.0
+backcall==0.2.0
+bitsandbytes==0.39.1
+black==23.3.0
+blinker==1.6.2
+cachetools==5.3.1
+certifi==2023.5.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+click==8.1.3
+cmake==3.26.4
+contourpy==1.1.0
+cryptography==41.0.2
+cycler==0.11.0
+datasets==2.13.1
+decorator==5.1.1
+dill==0.3.6
+exceptiongroup==1.1.1
+executing==1.2.0
+fairscale==0.4.13
+fastapi==0.98.0
+ffmpy==0.3.0
+filelock==3.12.2
+fire==0.5.0
+Flask==2.3.2
+fonttools==4.40.0
+frozenlist==1.3.3
+fsspec==2023.6.0
+gradio==3.35.2
+gradio_client==0.2.7
+h11==0.14.0
+hiq==0.0.1
+hiq-python==1.1.12
+httpcore==0.17.2
+httpx==0.24.1
+huggingface-hub==0.15.1
+idna==3.4
+importlib-metadata==6.8.0
+importlib-resources==5.12.0
+ipython==8.12.2
+itsdangerous==2.1.2
+jedi==0.18.2
+Jinja2==3.1.2
+joblib==1.3.0
+jsonschema==4.17.3
+kiwisolver==1.4.4
+linkify-it-py==2.0.2
+lit==16.0.6
+loralib==0.1.1
+markdown-it-py==2.2.0
+MarkupSafe==2.1.3
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+mdit-py-plugins==0.3.3
+mdurl==0.1.2
+mpmath==1.3.0
+msal==1.22.0
+multidict==6.0.4
+multiprocess==0.70.14
+mypy-extensions==1.0.0
+networkx==3.1
+numpy==1.24.4
+nvidia-cublas-cu11==11.10.3.66
+nvidia-cuda-cupti-cu11==11.7.101
+nvidia-cuda-nvrtc-cu11==11.7.99
+nvidia-cuda-runtime-cu11==11.7.99
+nvidia-cudnn-cu11==8.5.0.96
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.2.10.91
+nvidia-cusolver-cu11==11.4.0.1
+nvidia-cusparse-cu11==11.7.4.91
+nvidia-nccl-cu11==2.14.3
+nvidia-nvtx-cu11==11.7.91
+orjson==3.9.1
+packaging==23.1
+pandas==2.0.2
+parso==0.8.3
+pathspec==0.11.1
+peft @ git+https://github.com/huggingface/peft.git@86290e9660d24ef0d0cedcf57710da249dd1f2f4
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.5.0
+pkgutil_resolve_name==1.3.10
+platformdirs==3.8.0
+prompt-toolkit==3.0.38
+protobuf==3.20.0
+psutil==5.9.5
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-itree==0.0.19
+pyarrow==12.0.1
+pybase64==1.2.3
+pycparser==2.21
+pydantic==1.10.9
+pydub==0.25.1
+Pygments==2.15.1
+PyJWT==2.7.0
+pyllama==0.0.9
+pyparsing==3.1.0
+pyrsistent==0.19.3
+python-dateutil==2.8.2
+python-multipart==0.0.6
+pytz==2023.3
+PyYAML==6.0
+regex==2023.6.3
+requests==2.31.0
+rich==13.4.2
+safetensors==0.3.1
+scikit-learn==1.2.2
+scipy==1.10.1
+semantic-version==2.10.0
+sentencepiece==0.1.97
+six==1.16.0
+sklearn==0.0.post5
+sniffio==1.3.0
+stack-data==0.6.2
+starlette==0.27.0
+sympy==1.12
+termcolor==2.3.0
+threadpoolctl==3.1.0
+tokenize-rt==5.1.0
+tokenizers==0.13.3
+tomli==2.0.1
+toolz==0.12.0
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+tqdm==4.65.0
+traitlets==5.9.0
+transformers==4.28.0
+triton==2.0.0
+typing_extensions==4.6.3
+tzdata==2023.3
+uc-micro-py==1.0.2
+urllib3==2.0.3
+uvicorn==0.22.0
+wcwidth==0.2.6
+websockets==11.0.3
+Werkzeug==2.3.6
+xxhash==3.2.0
+yarl==1.9.2
+zipp==3.15.0
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ 
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ 
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ 
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ gipt [K[K[K[K[Kpip install [K[K[K[K[K[K[K[K[K[K[K[Kpip install peft
+Requirement already satisfied: peft in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (0.4.0.dev0)
+Requirement already satisfied: numpy>=1.17 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (1.24.4)
+Requirement already satisfied: packaging>=20.0 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (23.1)
+Requirement already satisfied: psutil in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (5.9.5)
+Requirement already satisfied: pyyaml in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (6.0)
+Requirement already satisfied: torch>=1.13.0 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (2.0.1)
+Requirement already satisfied: transformers in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (4.28.0)
+Requirement already satisfied: accelerate in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (0.20.3)
+Requirement already satisfied: safetensors in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from peft) (0.3.1)
+Requirement already satisfied: filelock in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (3.12.2)
+Requirement already satisfied: typing-extensions in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (4.6.3)
+Requirement already satisfied: sympy in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (1.12)
+Requirement already satisfied: networkx in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (3.1)
+Requirement already satisfied: jinja2 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (3.1.2)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.7.99)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.7.99)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.7.101 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.7.101)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (8.5.0.96)
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.10.3.66)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (10.9.0.58)
+Requirement already satisfied: nvidia-curand-cu11==10.2.10.91 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (10.2.10.91)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.0.1 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.4.0.1)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.4.91 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.7.4.91)
+Requirement already satisfied: nvidia-nccl-cu11==2.14.3 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (2.14.3)
+Requirement already satisfied: nvidia-nvtx-cu11==11.7.91 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (11.7.91)
+Requirement already satisfied: triton==2.0.0 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from torch>=1.13.0->peft) (2.0.0)
+Requirement already satisfied: setuptools in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch>=1.13.0->peft) (67.8.0)
+Requirement already satisfied: wheel in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch>=1.13.0->peft) (0.38.4)
+Requirement already satisfied: cmake in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from triton==2.0.0->torch>=1.13.0->peft) (3.26.4)
+Requirement already satisfied: lit in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from triton==2.0.0->torch>=1.13.0->peft) (16.0.6)
+Requirement already satisfied: huggingface-hub<1.0,>=0.11.0 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from transformers->peft) (0.15.1)
+Requirement already satisfied: regex!=2019.12.17 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from transformers->peft) (2023.6.3)
+Requirement already satisfied: requests in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from transformers->peft) (2.31.0)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from transformers->peft) (0.13.3)
+Requirement already satisfied: tqdm>=4.27 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from transformers->peft) (4.65.0)
+Requirement already satisfied: fsspec in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.11.0->transformers->peft) (2023.6.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from jinja2->torch>=1.13.0->peft) (2.1.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from requests->transformers->peft) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from requests->transformers->peft) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from requests->transformers->peft) (2.0.3)
+Requirement already satisfied: certifi>=2017.4.17 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from requests->transformers->peft) (2023.5.7)
+Requirement already satisfied: mpmath>=0.19 in /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages (from sympy->torch>=1.13.0->peft) (1.3.0)
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ pip install peft[6Pfreeze 
+accelerate==0.20.3
+aiofiles==23.1.0
+aiohttp==3.8.4
+aiosignal==1.3.1
+altair==5.0.1
+anyio==3.7.0
+appdirs==1.4.4
+asttokens==2.2.1
+async-timeout==4.0.2
+attrs==23.1.0
+backcall==0.2.0
+bitsandbytes==0.39.1
+black==23.3.0
+blinker==1.6.2
+cachetools==5.3.1
+certifi==2023.5.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+click==8.1.3
+cmake==3.26.4
+contourpy==1.1.0
+cryptography==41.0.2
+cycler==0.11.0
+datasets==2.13.1
+decorator==5.1.1
+dill==0.3.6
+exceptiongroup==1.1.1
+executing==1.2.0
+fairscale==0.4.13
+fastapi==0.98.0
+ffmpy==0.3.0
+filelock==3.12.2
+fire==0.5.0
+Flask==2.3.2
+fonttools==4.40.0
+frozenlist==1.3.3
+fsspec==2023.6.0
+gradio==3.35.2
+gradio_client==0.2.7
+h11==0.14.0
+hiq==0.0.1
+hiq-python==1.1.12
+httpcore==0.17.2
+httpx==0.24.1
+huggingface-hub==0.15.1
+idna==3.4
+importlib-metadata==6.8.0
+importlib-resources==5.12.0
+ipython==8.12.2
+itsdangerous==2.1.2
+jedi==0.18.2
+Jinja2==3.1.2
+joblib==1.3.0
+jsonschema==4.17.3
+kiwisolver==1.4.4
+linkify-it-py==2.0.2
+lit==16.0.6
+loralib==0.1.1
+markdown-it-py==2.2.0
+MarkupSafe==2.1.3
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+mdit-py-plugins==0.3.3
+mdurl==0.1.2
+mpmath==1.3.0
+msal==1.22.0
+multidict==6.0.4
+multiprocess==0.70.14
+mypy-extensions==1.0.0
+networkx==3.1
+numpy==1.24.4
+nvidia-cublas-cu11==11.10.3.66
+nvidia-cuda-cupti-cu11==11.7.101
+nvidia-cuda-nvrtc-cu11==11.7.99
+nvidia-cuda-runtime-cu11==11.7.99
+nvidia-cudnn-cu11==8.5.0.96
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.2.10.91
+nvidia-cusolver-cu11==11.4.0.1
+nvidia-cusparse-cu11==11.7.4.91
+nvidia-nccl-cu11==2.14.3
+nvidia-nvtx-cu11==11.7.91
+orjson==3.9.1
+packaging==23.1
+pandas==2.0.2
+parso==0.8.3
+pathspec==0.11.1
+peft @ git+https://github.com/huggingface/peft.git@86290e9660d24ef0d0cedcf57710da249dd1f2f4
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.5.0
+pkgutil_resolve_name==1.3.10
+platformdirs==3.8.0
+prompt-toolkit==3.0.38
+protobuf==3.20.0
+psutil==5.9.5
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-itree==0.0.19
+pyarrow==12.0.1
+pybase64==1.2.3
+pycparser==2.21
+pydantic==1.10.9
+pydub==0.25.1
+Pygments==2.15.1
+PyJWT==2.7.0
+pyllama==0.0.9
+pyparsing==3.1.0
+pyrsistent==0.19.3
+python-dateutil==2.8.2
+python-multipart==0.0.6
+pytz==2023.3
+PyYAML==6.0
+regex==2023.6.3
+requests==2.31.0
+rich==13.4.2
+safetensors==0.3.1
+scikit-learn==1.2.2
+scipy==1.10.1
+semantic-version==2.10.0
+sentencepiece==0.1.97
+six==1.16.0
+sklearn==0.0.post5
+sniffio==1.3.0
+stack-data==0.6.2
+starlette==0.27.0
+sympy==1.12
+termcolor==2.3.0
+threadpoolctl==3.1.0
+tokenize-rt==5.1.0
+tokenizers==0.13.3
+tomli==2.0.1
+toolz==0.12.0
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+tqdm==4.65.0
+traitlets==5.9.0
+transformers==4.28.0
+triton==2.0.0
+typing_extensions==4.6.3
+tzdata==2023.3
+uc-micro-py==1.0.2
+urllib3==2.0.3
+uvicorn==0.22.0
+wcwidth==0.2.6
+websockets==11.0.3
+Werkzeug==2.3.6
+xxhash==3.2.0
+yarl==1.9.2
+zipp==3.15.0
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ ^C
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ ^C
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ ^C
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ ^C
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ pip freeze install peft[6Pfreeze[6Pexitpython[1Pcd ..pythondu -h adapter_model.bin [Kls -altcd output13B[30@bash ./shell/evaluate.sh 0,1,2,3[C[C[C[C[C[C[C[C[C[Ccd output13B[K[5Pls -alt[2Pdu -h adapter_model.bin python[K[1Pcd ..python[2Pexitpip freezeinstall peft[5Pfreeze [Kpip freeze install peft[6Pfreeze[6Pexitpython[1Pcd ..pythondu -h adapter_model.bin [Kls -altcd output13B[K[K[K[K[K[K[K[K[K[K[K[K./bash[K[K[K[K[K[Kbash ./s[Kshell/instruct_13[K[K7B.sh 0,1,2,3 10
+0,1,2,3, 10
+lr: 1e-4, dropout: 0.05 , seed: 10, sample: 4
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda117_nocublaslt.so
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/data/baokq/miniconda3/envs/alpaca_lora/lib')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /data/baokq/miniconda3/envs/alpaca_lora/lib/ did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('azureml-setup/mutated_run_configuration.json')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/subscriptions/ba709ca5-1a2c-479c-a1cb-6e0346b81bf1/resourcegroups/singularityhobo/providers/Microsoft.Singularity/accounts/mm-vl/jobs/223e1fff-3015-434c-b041-e883974bf2e0')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/var/data/input5')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('fabric'), PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/multimedia-nfs,/vc_data')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/scratch/azureml/cr/j/3b913034145f4fe6b96b5ead2cb467f9/.grpc/executor'), PosixPath('0')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/var/data/input2')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('ve=\\E[34h\\E[?25h'), PosixPath('ct=\\E[3g'), PosixPath('po=\\E[5i'), PosixPath('Co#8'), PosixPath('mh=\\E[2m'), PosixPath('kl=\\EOD'), PosixPath('ks=\\E[?1h\\E='), PosixPath('k8=\\E[19~'), PosixPath('pf=\\E[4i'), PosixPath('te=\\E[?1049l'), PosixPath('kB=\\E[Z'), PosixPath('ti=\\E[?1049h'), PosixPath('@7=\\E[4~'), PosixPath('nd=\\E[C'), PosixPath('IC=\\E[%d@'), PosixPath('cm=\\E[%i%d;%dH'), PosixPath('ms'), PosixPath('LE=\\E[%dD'), PosixPath('vi=\\E[?25l'), PosixPath('AL=\\E[%dL'), PosixPath('ho=\\E[H'), PosixPath('cl=\\E[H\\E[J'), PosixPath('us=\\E[4m'), PosixPath('bs'), PosixPath('k6=\\E[17~'), PosixPath('md=\\E[1m'), PosixPath('kN=\\E[6~'), PosixPath('dl=\\E[M'), PosixPath('bt=\\E[Z'), PosixPath('as=\\E(0'), PosixPath('G0'), PosixPath('xn'), PosixPath('co#286'), PosixPath('DL=\\E[%dM'), PosixPath('im=\\E[4h'), PosixPath('pt'), PosixPath('is=\\E)0'), PosixPath('k9=\\E[20~'), PosixPath('up=\\EM'), PosixPath('k4=\\EOS'), PosixPath('km'), PosixPath('le=^H'), PosixPath('bl=^G'), PosixPath('k;=\\E[21~'), PosixPath('UP=\\E[%dA'), PosixPath('so=\\E[3m'), PosixPath('k0=\\E[10~'), PosixPath('cs=\\E[%i%d;%dr'), PosixPath('vb=\\Eg'), PosixPath('pa#64'), PosixPath('nw=\\EE'), PosixPath('ta=^I'), PosixPath('mi'), PosixPath('sr=\\EM'), PosixPath('SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal'), PosixPath('k7=\\E[18~'), PosixPath('mb=\\E[5m'), PosixPath('F2=\\E[24~'), PosixPath('am'), PosixPath('RI=\\E[%dC'), PosixPath('AX'), PosixPath('xv'), PosixPath('al=\\E[L'), PosixPath('li#17'), PosixPath('@1=\\E[1~'), PosixPath('kD=\\E[3~'), PosixPath('ue=\\E[24m'), PosixPath('Km=\\E[M'), PosixPath('ke=\\E[?1l\\E>'), PosixPath('st=\\EH'), PosixPath('ce=\\E[K'), PosixPath('rc=\\E8'), PosixPath('it#8'), PosixPath('cd=\\E[J'), PosixPath('F1=\\E[23~'), PosixPath('mr=\\E[7m'), PosixPath('cr=^M'), PosixPath('se=\\E[23m'), PosixPath('kH=\\E[4~'), PosixPath('k3=\\EOR'), PosixPath('kh=\\E[1~'), PosixPath('k1=\\EOP'), PosixPath('k2=\\EOQ'), PosixPath('kr=\\EOC'), PosixPath('DO=\\E[%dB'), PosixPath('ku=\\EOA'), PosixPath('AB=\\E[4%dm'), PosixPath('op=\\E[39;49m'), PosixPath('rs=\\Ec'), PosixPath('dc=\\E[P'), PosixPath('ei=\\E[4l'), PosixPath('ae=\\E(B'), PosixPath('k5=\\E[15~'), PosixPath('DC=\\E[%dP'), PosixPath('sc=\\E7'), PosixPath('AF=\\E[3%dm'), PosixPath('me=\\E[m'), PosixPath('kd=\\EOB'), PosixPath('ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00'), PosixPath('do=^J'), PosixPath('LP'), PosixPath('kP=\\E[5~'), PosixPath('kI=\\E[2~'), PosixPath('vs=\\E[34l')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/var/data/input3')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0/endpoint3')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/var/data/microsoft/singularity')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/mnt/resource/singularity/criu/staging/worker')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('--hostfile /home/aiscuser/hostfile -mca pml ob1 -mca btl ^openib -mca btl_tcp_if_include eth0  -mca oob_tcp_if_include eth0 -np 8')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/subscriptions/cf5ed1a5-270b-4cfa-8bff-3cbf65d9c658/resourceGroups/Multimedia-Singularity-RG-01/providers/Microsoft.MachineLearningServices/workspaces/multimedia-singularity-ws01-scus/experiments/Default')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('https'), PosixPath('//southcentralus.cert.api.azureml.ms')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/scratch/workspaceblobstore/azureml/223e1fff-3015-434c-b041-e883974bf2e0/.jobspec')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0/endpoint2')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('aiscofficialacr.azurecr.io/base/job/pytorch/acpt-2.0.0-cuda11.7')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/opt/microsoft/azureml/sidecarrun.bash')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//southcentralus.api.azureml.ms/metric/v2.0/subscriptions/cf5ed1a5-270b-4cfa-8bff-3cbf65d9c658/resourceGroups/Multimedia-Singularity-RG-01/providers/Microsoft.MachineLearningServices/workspaces/multimedia-singularity-ws01-scus/api/2.0/prometheus/post'), PosixPath('https')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('US/Pacific')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('base/job/pytorch/acpt-2.0.0-cuda11.7'), PosixPath('20230523T140648909')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/mnt/resource/singularity/criu/staging/LfsInterceptor/LfsInterceptorLog')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('azureml'), PosixPath('//southcentralus.api.azureml.ms/mlflow/v1.0/subscriptions/cf5ed1a5-270b-4cfa-8bff-3cbf65d9c658/resourceGroups/Multimedia-Singularity-RG-01/providers/Microsoft.MachineLearningServices/workspaces/multimedia-singularity-ws01-scus')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('{"Uds"'), PosixPath('"/scratch/azureml/cr/j/3b913034145f4fe6b96b5ead2cb467f9/.grpc"}}'), PosixPath('{"base_address"')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/scratch/workspaceblobstore/azureml/223e1fff-3015-434c-b041-e883974bf2e0/azureml_compute_logs')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/fabric/LnxDockerBatchAppType@10872@ServicePackage@35211d7e-5c8c-2845-9272-32ac4471acbd')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('aiscofficialacr.azurecr.io/base/job/pytorch/acpt-2.0.0-cuda11.7'), PosixPath('20230523T140648909')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//multimediasing8660389823.blob.core.windows.net/azureml-blobstore-77f7e07c-6ea6-459c-9516-ec8de5a72265/LeaseBlob_223e1fff-3015-434c-b041-e883974bf2e0?sv=2019-07-07&sr=b&sig=OtU77cJYm68VWtcI9e9zOvAHch7yLY5QazS62VkPDHM%3D&st=2023-06-28T20%3A11%3A50Z&se=2023-07-01T20%3A21%3A50Z&sp=rcwl'), PosixPath('https')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath(' Bearer ${AZUREML_RUN_TOKEN}" | jq -r ".token") && echo $AZUREML_RUN_TOKEN; fi'), PosixPath(' application / json" -H "Authorization'), PosixPath('export AZUREML_RUN_TOKEN_FILE=/scratch/workspaceblobstore/azureml/223e1fff-3015-434c-b041-e883974bf2e0/.encrypted_runtoken;if [ -f "$AZUREML_RUN_TOKEN_FILE" ]; then AES_KEY=$(echo ${AZUREML_RUN_UNIQUE_SYMMETRIC_KEY} | openssl base64 -d | xxd -p -c32);AES_IV=$(echo ${AZUREML_RUN_IV} | openssl base64 -d | xxd -p -c32);RUN_TOKEN=$(cat ${AZUREML_RUN_TOKEN_FILE} | openssl enc -aes-256-cbc -d -a -K ${AES_KEY} -iv ${AES_IV} -A); echo $RUN_TOKEN;else export AZUREML_RUN_TOKEN=$(curl -s "${AZUREML_RUN_HISTORY_SERVICE_ENDPOINT}/history/v1.0${AZUREML_WORKSPACE_SCOPE}/experimentids/${AZUREML_EXPERIMENT_ID}/runs/${AZUREML_RUN_ID}/token" -H "Accept')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('https'), PosixPath('//southcentralus.api.azureml.ms')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('//southcentralus.api.azureml.ms/discovery'), PosixPath('https')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('mcr.microsoft.com/azureml/runtime/boot/singularity-bootstrapper/installed'), PosixPath('0.0.1.20230616.3')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/var/data/input4')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/data/share/multimedia/multimedia-nfs,/data/share/multimedia/multimedia-nfs')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath(' [device,unique_label_name]\\n      action'), PosixPath(' /subscriptions/cf5ed1a5-270b-4cfa-8bff-3cbf65d9c658/resourceGroups/Multimedia-Singularity-RG-01/providers/Microsoft.MachineLearningServices/workspaces/multimedia-singularity-ws01-scus\\n    - source_labels'), PosixPath(' azureml_metric_storage\\n      regex'), PosixPath('    - source_labels'), PosixPath(' DeviceId\\n      regex'), PosixPath(' [gpu_id,unique_label_name]\\n      action'), PosixPath(' rootRunId\\n      regex'), PosixPath(' ComputeName\\n      regex'), PosixPath(' [unique_label_name]\\n      action'), PosixPath(' vienna\\n    - source_labels'), PosixPath(' [instance,unique_label_name]\\n      action'), PosixPath(' azureml_resourceid\\n      regex'), PosixPath(' InstanceId\\n      regex'), PosixPath(' replace\\n      target_label'), PosixPath(' MM-VL\\n    - source_labels'), PosixPath(' unique_label_value\\n      replacement'), PosixPath(' [__name__]\\n      action'), PosixPath(' GpuEnergyJoules\\n      replacement'), PosixPath(' (.+);unique_label_value'), PosixPath(' [minor_number,unique_label_name]\\n      action'), PosixPath(' keep\\n      regex'), PosixPath(' (.+);unique_label_value\\n    - source_labels'), PosixPath(' 1\\n    - source_labels'), PosixPath(' azureml_metric_namespace\\n      regex'), PosixPath(' unique_label_value\\n    - source_labels'), PosixPath(' 223e1fff-3015-434c-b041-e883974bf2e0\\n    - source_labels'), PosixPath(' runId\\n      regex')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('0')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0/endpoint1')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/scratch/azureml/cr/j/3b913034145f4fe6b96b5ead2cb467f9/.grpc/hosttools-capability'), PosixPath('0')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath(' /opt/microsoft/singularity/user/job/services/batch/batchjob.conf /opt/microsoft/singularity/user/job/services/notebook/jupyter.conf /opt/microsoft/singularity/user/job/services/sshd/sshd.conf')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/subscriptions/cf5ed1a5-270b-4cfa-8bff-3cbf65d9c658/resourceGroups/Multimedia-Singularity-RG-01/providers/Microsoft.MachineLearningServices/workspaces/multimedia-singularity-ws01-scus')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('"dcid.223e1fff-3015-434c-b041-e883974bf2e0","run_uuid"'), PosixPath('{"subscription_id"'), PosixPath('//southcentralus.cert.api.azureml.ms","discovery_endpoint"'), PosixPath('"223e1fff-3015-434c-b041-e883974bf2e0","run_id"'), PosixPath('//southcentralus.api.azureml.ms","data_container_id"'), PosixPath('"77f7e07c-6ea6-459c-9516-ec8de5a72265","service_endpoint"'), PosixPath('"Default","experiment_id"'), PosixPath('"Multimedia-Singularity-RG-01","workspace_name"'), PosixPath('"223e1fff-3015-434c-b041-e883974bf2e0","run_token"'), PosixPath('"3b913034-145f-4fe6-b96b-5ead2cb467f9"}'), PosixPath('//southcentralus.api.azureml.ms","service_cert_endpoint"'), PosixPath('//southcentralus.api.azureml.ms/discovery","experiment_name"'), PosixPath('"cf5ed1a5-270b-4cfa-8bff-3cbf65d9c658","resource_group"'), PosixPath('"eyJhbGciOiJSUzI1NiIsImtpZCI6IkYwMzA0MTAyODhGRDgzODFCM0I5MUUzM0FGRUE3RjExNEVDMjhBMjEiLCJ0eXAiOiJKV1QifQ.eyJyb2xlIjoiQ29udHJpYnV0b3IiLCJzY29wZSI6Ii9zdWJzY3JpcHRpb25zL2NmNWVkMWE1LTI3MGItNGNmYS04YmZmLTNjYmY2NWQ5YzY1OC9yZXNvdXJjZUdyb3Vwcy9NdWx0aW1lZGlhLVNpbmd1bGFyaXR5LVJHLTAxL3Byb3ZpZGVycy9NaWNyb3NvZnQuTWFjaGluZUxlYXJuaW5nU2VydmljZXMvd29ya3NwYWNlcy9tdWx0aW1lZGlhLXNpbmd1bGFyaXR5LXdzMDEtc2N1cyIsImFjY291bnRpZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsIndvcmtzcGFjZUlkIjoiNzdmN2UwN2MtNmVhNi00NTljLTk1MTYtZWM4ZGU1YTcyMjY1IiwicHJvamVjdGlkIjoiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiwiZGlzY292ZXJ5IjoidXJpOi8vZGlzY292ZXJ5dXJpLyIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsIm9pZCI6IjIwYjM4NTcwLTM5NGItNDJmYy04MGFlLTQzNjYyZjNhMjlkZCIsInB1aWQiOiIxMDAzN0ZGRTk3QkFFMzRCIiwiaXNzIjoiYXp1cmVtbCIsImFwcGlkIjoiTWFoZGkgSGFqaWFnaGF5aSIsImV4cCI6MTY4OTgwMDMyMSwiYXVkIjoiYXp1cmVtbCJ9.uk0wYYGhyRSp-QWQq6TlFVcysHKeQVAX3z4gIv2MHIbgmht_MZMiZp_fYVnnsiKO6BTF7XQFRmk8w8DksX257cvMsXNz9Avk_fhlS3trS3IPSfhZPoWlMzSR200QY7YfXk1TA8ePk7JU4JROVIUOdDZTjiLJsKiD0cqXpEWhmie9jCjVG-tbZV_5eZi_bP7tWZANWl1uRfvsGxVoHFUVSKLzV12icQ-eNHTo6gOZuK_jRnwsIjK34T2-8uIY_2BTJzw2gUbMgqeMWe78PKKcgGgVn4y4gLcoCf8TQzQ6kcmj-CakrG9u-TV95ERnbQHZRPpXm9dJ9616BZfrfLinBQ","run_history_service_endpoint"'), PosixPath('"https'), PosixPath('"7a93aff7-c8c0-419d-bf1d-f7d060667a05","root_run_id"'), PosixPath('"multimedia-singularity-ws01-scus","workspace_id"')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/scratch/workspaceblobstore/azureml/223e1fff-3015-434c-b041-e883974bf2e0/logs')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('https'), PosixPath('//management.azure.com')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('2560 GB')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/scratch/mm_vl_nfs')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('$SIDECAR_START_SCRIPT /opt/microsoft/azureml 1')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('"SF-SP-35211d7e-5c8c-2845-9272-32ac4471acbd-133313340408734243_9bb730c3-d63f-0b46-8a7f-227b0ff2de21"},"CodePackageName"'), PosixPath('"4","SystemNodeInstanceId"'), PosixPath('"3","UserNodeId"'), PosixPath('"6","FederationId"'), PosixPath('"7","FederationName"'), PosixPath('"sf-10872-fb4318eb-4f85-4202-afd2-037000000000_35211d7e-5c8c-2845-9272-32ac4471acbd"}'), PosixPath('"fabric'), PosixPath('{"$id"'), PosixPath('"_ND40rsv201_2"},"InstanceId"'), PosixPath('"southcentralus"},"SystemNodeName"'), PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0"},"InstanceId"'), PosixPath('"2","UserNodeInstanceId"'), PosixPath('"1","UserNodeCodePackageId"'), PosixPath('"5","SystemNodeId"'), PosixPath('"aisc-prod-southcentralus-cpml-lnx-19","Location"'), PosixPath('133313340408645650},"UserNodeName"'), PosixPath('"Job"},"InstanceId"')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0/endpoint5')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/06194552-d079-405e-b924-2f62efdb06d7/node-0/endpoint4')}
+  warn(msg)
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: The following directories listed in your path were found to be non-existent: {PosixPath('/var/data/output')}
+  warn(msg)
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: Found duplicate ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] files: {PosixPath('/usr/local/cuda/lib64/libcudart.so.11.0'), PosixPath('/usr/local/cuda/lib64/libcudart.so')}.. We'll flip a coin and try one of these, in order to fail forward.
+Either way, this might cause trouble in the future:
+If you get `CUDA error: invalid device function` errors, the above might be the cause and the solution is to make sure only one ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] in the paths that we search based on your env.
+  warn(msg)
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 7.0
+CUDA SETUP: Detected CUDA version 117
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+CUDA SETUP: Loading binary /multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda117_nocublaslt.so...
+Training Alpaca-LoRA model with params:
+base_model: /multimedia-nfs/mahajiag/llama_weights/13B/models--openlm-research--open_llama_13b/snapshots/b6d7fde8392250730d24cc2fcfa3b7e5f9a03ce8
+train_data_path: ./data/movie/train.json
+val_data_path: ./data/movie/valid.json
+sample: 4
+seed: 10
+output_dir: output13B_2
+batch_size: 128
+micro_batch_size: 32
+num_epochs: 1
+learning_rate: 0.0001
+cutoff_len: 512
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: ['q_proj', 'v_proj']
+train_on_inputs: True
+group_by_length: True
+wandb_project: 
+wandb_run_name: 
+wandb_watch: 
+wandb_log_model: 
+resume_from_checkpoint: /multimedia-nfs/mahajiag/TALLRec/output13B_2
+logging_steps: 1
+eval_steps: 1
+
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards:   0%|                                                                                                                                                                                                                        | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|█████████████████████████████████████████████████████████████████████▎                                                                                                                                          | 1/3 [00:07<00:15,  7.56s/it]Loading checkpoint shards:  67%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                     | 2/3 [00:15<00:07,  7.67s/it]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:19<00:00,  6.29s/it]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:19<00:00,  6.65s/it]
+/multimedia-nfs/mahajiag/setup/anaconda3/envs/tallrec/lib/python3.8/site-packages/peft/utils/other.py:102: FutureWarning: prepare_model_for_int8_training is deprecated and will be removed in a future version. Use prepare_model_for_kbit_training instead.
+  warnings.warn(
+Found cached dataset json (/home/aiscuser/.cache/huggingface/datasets/json/default-b027ce909325ec0f/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96)
+  0%|                                                                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 451.78it/s]
+Found cached dataset json (/home/aiscuser/.cache/huggingface/datasets/json/default-1c9d72227350b792/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96)
+  0%|                                                                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 816.65it/s]
+trainable params: 6,553,600 || all params: 13,022,417,920 || trainable%: 0.05032552357220002
+Loading cached shuffled indices for dataset at /home/aiscuser/.cache/huggingface/datasets/json/default-b027ce909325ec0f/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-1257902b4f8ed5c2.arrow
+Map:   0%|                                                                                                                                                                                                                                       | 0/4 [00:00<?, ? examples/s]                                                                                                                                                                                                                                                                              Loading cached processed dataset at /home/aiscuser/.cache/huggingface/datasets/json/default-1c9d72227350b792/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-4f1b5cb6552a7a62.arrow
+eval_steps: 1
+Using the `WANDB_DISABLED` environment variable is deprecated and will be removed in v5. Use the --report_to flag to control the integrations used for logging result (for instance --report_to none).
+  0%|                                                                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:05<00:00,  5.94s/it]                                                                                                                                                                                                                                                                              {'loss': 0.446, 'learning_rate': 5e-06, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:05<00:00,  5.94s/it]
+  0%|                                                                                                                                                                                                                                                 | 0/125 [00:00<?, ?it/s][A
+  2%|███▋                                                                                                                                                                                                                                     | 2/125 [00:03<03:58,  1.93s/it][A
+  2%|█████▌                                                                                                                                                                                                                                   | 3/125 [00:07<05:35,  2.75s/it][A
+  3%|███████▍                                                                                                                                                                                                                                 | 4/125 [00:11<06:24,  3.17s/it][A
+  4%|█████████▎                                                                                                                                                                                                                               | 5/125 [00:15<06:50,  3.42s/it][A
+  5%|███████████▏                                                                                                                                                                                                                             | 6/125 [00:19<07:05,  3.57s/it][A
+  6%|█████████████                                                                                                                                                                                                                            | 7/125 [00:23<07:13,  3.67s/it][A
+  6%|██████████████▉                                                                                                                                                                                                                          | 8/125 [00:27<07:17,  3.74s/it][A
+  7%|████████████████▊                                                                                                                                                                                                                        | 9/125 [00:31<07:18,  3.78s/it][A
+  8%|██████████████████▌                                                                                                                                                                                                                     | 10/125 [00:35<07:29,  3.91s/it][A
+  9%|████████████████████▍                                                                                                                                                                                                                   | 11/125 [00:39<07:35,  4.00s/it][A
+ 10%|██████████████████████▎                                                                                                                                                                                                                 | 12/125 [00:43<07:38,  4.06s/it][A
+ 10%|████████████████████████▏                                                                                                                                                                                                               | 13/125 [00:48<07:45,  4.15s/it][A
+ 11%|█████████████████████████▉                                                                                                                                                                                                              | 14/125 [00:51<07:31,  4.07s/it][A
+ 12%|███████████████████████████▊                                                                                                                                                                                                            | 15/125 [00:55<07:21,  4.01s/it][A
+ 13%|█████████████████████████████▋                                                                                                                                                                                                          | 16/125 [00:59<07:11,  3.96s/it][A
+ 14%|███████████████████████████████▌                                                                                                                                                                                                        | 17/125 [01:03<07:02,  3.92s/it][A
+ 14%|█████████████████████████████████▍                                                                                                                                                                                                      | 18/125 [01:07<07:07,  3.99s/it][A
+ 15%|███████████████████████████████████▎                                                                                                                                                                                                    | 19/125 [01:11<07:09,  4.06s/it][A
+ 16%|█████████████████████████████████████                                                                                                                                                                                                   | 20/125 [01:15<07:01,  4.01s/it][A
+ 17%|██████████████████████████████████████▉                                                                                                                                                                                                 | 21/125 [01:19<06:52,  3.97s/it][A
+ 18%|████████████████████████████████████████▊                                                                                                                                                                                               | 22/125 [01:23<06:45,  3.94s/it][A
+ 18%|██████████████████████████████████████████▋                                                                                                                                                                                             | 23/125 [01:27<06:49,  4.01s/it][A
+ 19%|████████████████████████████████████████████▌                                                                                                                                                                                           | 24/125 [01:31<06:40,  3.97s/it][A
+ 20%|██████████████████████████████████████████████▍                                                                                                                                                                                         | 25/125 [01:35<06:33,  3.94s/it][A
+ 21%|████████████████████████████████████████████████▎                                                                                                                                                                                       | 26/125 [01:39<06:27,  3.92s/it][A
+ 22%|██████████████████████████████████████████████████                                                                                                                                                                                      | 27/125 [01:43<06:22,  3.90s/it][A
+ 22%|███████████████████████████████████████████████████▉                                                                                                                                                                                    | 28/125 [01:47<06:18,  3.91s/it][A
+ 23%|█████████████████████████████████████████████████████▊                                                                                                                                                                                  | 29/125 [01:51<06:23,  3.99s/it][A
+ 24%|███████████████████████████████████████████████████████▋                                                                                                                                                                                | 30/125 [01:55<06:24,  4.05s/it][A
+ 25%|█████████████████████████████████████████████████████████▌                                                                                                                                                                              | 31/125 [01:59<06:15,  4.00s/it][A
+ 26%|███████████████████████████████████████████████████████████▍                                                                                                                                                                            | 32/125 [02:03<06:17,  4.06s/it][A
+ 26%|█████████████████████████████████████████████████████████████▏                                                                                                                                                                          | 33/125 [02:07<06:16,  4.09s/it][A
+ 27%|███████████████████████████████████████████████████████████████                                                                                                                                                                         | 34/125 [02:11<06:04,  4.01s/it][A
+ 28%|████████████████████████████████████████████████████████████████▉                                                                                                                                                                       | 35/125 [02:15<05:57,  3.97s/it][A
+ 29%|██████████████████████████████████████████████████████████████████▊                                                                                                                                                                     | 36/125 [02:19<05:51,  3.95s/it][A
+ 30%|████████████████████████████████████████████████████████████████████▋                                                                                                                                                                   | 37/125 [02:23<05:45,  3.93s/it][A
+ 30%|██████████████████████████████████████████████████████████████████████▌                                                                                                                                                                 | 38/125 [02:26<05:40,  3.91s/it][A
+ 31%|████████████████████████████████████████████████████████████████████████▍                                                                                                                                                               | 39/125 [02:30<05:35,  3.90s/it][A
+ 32%|██████████████████████████████████████████████████████████████████████████▏                                                                                                                                                             | 40/125 [02:34<05:31,  3.91s/it][A
+ 33%|████████████████████████████████████████████████████████████████████████████                                                                                                                                                            | 41/125 [02:38<05:27,  3.90s/it][A
+ 34%|█████████████████████████████████████████████████████████████████████████████▉                                                                                                                                                          | 42/125 [02:42<05:31,  3.99s/it][A
+ 34%|███████████████████████████████████████████████████████████████████████████████▊                                                                                                                                                        | 43/125 [02:47<05:32,  4.05s/it][A
+ 35%|█████████████████████████████████████████████████████████████████████████████████▋                                                                                                                                                      | 44/125 [02:50<05:24,  4.01s/it][A
+ 36%|███████████████████████████████████████████████████████████████████████████████████▌                                                                                                                                                    | 45/125 [02:54<05:17,  3.96s/it][A
+ 37%|█████████████████████████████████████████████████████████████████████████████████████▍                                                                                                                                                  | 46/125 [02:58<05:11,  3.94s/it][A
+ 38%|███████████████████████████████████████████████████████████████████████████████████████▏                                                                                                                                                | 47/125 [03:02<05:06,  3.92s/it][A
+ 38%|█████████████████████████████████████████████████████████████████████████████████████████                                                                                                                                               | 48/125 [03:06<05:00,  3.91s/it][A
+ 39%|██████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                                                             | 49/125 [03:10<04:56,  3.90s/it][A
+ 40%|████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                                                           | 50/125 [03:14<04:51,  3.89s/it][A
+ 41%|██████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                                                         | 51/125 [03:18<04:47,  3.88s/it][A
+ 42%|████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                                                       | 52/125 [03:21<04:43,  3.88s/it][A
+ 42%|██████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                                                     | 53/125 [03:26<04:46,  3.98s/it][A
+ 43%|████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                                                   | 54/125 [03:30<04:47,  4.05s/it][A
+ 44%|██████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                                                  | 55/125 [03:34<04:39,  4.00s/it][A
+ 45%|███████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                                                | 56/125 [03:38<04:33,  3.97s/it][A
+ 46%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                                              | 57/125 [03:42<04:27,  3.94s/it][A
+ 46%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                                            | 58/125 [03:45<04:21,  3.90s/it][A
+ 47%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                                          | 59/125 [03:50<04:23,  3.99s/it][A
+ 48%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                                        | 60/125 [03:54<04:23,  4.05s/it][A
+ 49%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                                      | 61/125 [03:58<04:15,  3.99s/it][A
+ 50%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                                     | 62/125 [04:01<04:09,  3.95s/it][A
+ 50%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                                   | 63/125 [04:06<04:13,  4.09s/it][A
+ 51%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                                 | 64/125 [04:10<04:15,  4.18s/it][A
+ 52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                               | 65/125 [04:14<04:06,  4.11s/it][A
+ 53%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                             | 66/125 [04:18<03:58,  4.04s/it][A
+ 54%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                           | 67/125 [04:22<03:56,  4.08s/it][A
+ 54%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                         | 68/125 [04:26<03:54,  4.12s/it][A
+ 55%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                        | 69/125 [04:30<03:46,  4.04s/it][A
+ 56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                      | 70/125 [04:34<03:39,  3.99s/it][A
+ 57%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                    | 71/125 [04:38<03:33,  3.95s/it][A
+ 58%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                  | 72/125 [04:42<03:33,  4.02s/it][A
+ 58%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                | 73/125 [04:46<03:26,  3.97s/it][A
+ 59%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                              | 74/125 [04:50<03:20,  3.94s/it][A
+ 60%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                            | 75/125 [04:54<03:15,  3.92s/it][A
+ 61%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                           | 76/125 [04:58<03:11,  3.91s/it][A
+ 62%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                         | 77/125 [05:02<03:07,  3.91s/it][A
+ 62%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                       | 78/125 [05:06<03:03,  3.90s/it][A
+ 63%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                     | 79/125 [05:09<02:59,  3.90s/it][A
+ 64%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                   | 80/125 [05:13<02:55,  3.90s/it][A
+ 65%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                 | 81/125 [05:18<03:01,  4.12s/it][A
+ 66%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                               | 82/125 [05:23<03:04,  4.28s/it][A
+ 66%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                              | 83/125 [05:28<03:07,  4.47s/it][A
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                            | 84/125 [05:32<03:08,  4.59s/it][A
+ 68%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                          | 85/125 [05:36<02:55,  4.38s/it][A
+ 69%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                        | 86/125 [05:40<02:44,  4.23s/it][A
+ 70%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                      | 87/125 [05:44<02:40,  4.22s/it][A
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                    | 88/125 [05:48<02:32,  4.13s/it][A
+ 71%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                  | 89/125 [05:52<02:25,  4.05s/it][A
+ 72%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                 | 90/125 [05:56<02:19,  4.00s/it][A
+ 73%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                               | 91/125 [06:00<02:17,  4.05s/it][A
+ 74%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                             | 92/125 [06:04<02:12,  4.01s/it][A
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                           | 93/125 [06:08<02:07,  3.97s/it][A
+ 75%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                         | 94/125 [06:12<02:05,  4.04s/it][A
+ 76%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                       | 95/125 [06:16<02:02,  4.09s/it][A
+ 77%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                     | 96/125 [06:21<01:59,  4.12s/it][A
+ 78%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                    | 97/125 [06:25<01:57,  4.20s/it][A
+ 78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                  | 98/125 [06:29<01:53,  4.20s/it][A
+ 79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                | 99/125 [06:33<01:46,  4.11s/it][A
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                              | 100/125 [06:37<01:43,  4.14s/it][A
+ 81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                            | 101/125 [06:41<01:37,  4.06s/it][A
+ 82%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                          | 102/125 [06:45<01:34,  4.11s/it][A
+ 82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                        | 103/125 [06:50<01:31,  4.15s/it][A
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                      | 104/125 [06:54<01:27,  4.16s/it][A
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                     | 105/125 [06:58<01:21,  4.08s/it][A
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                   | 106/125 [07:02<01:18,  4.11s/it][A
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                 | 107/125 [07:06<01:14,  4.14s/it][A
+ 86%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                               | 108/125 [07:10<01:10,  4.15s/it][A
+ 87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                             | 109/125 [07:14<01:06,  4.17s/it][A
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                           | 110/125 [07:19<01:02,  4.18s/it][A
+ 89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                         | 111/125 [07:23<00:59,  4.26s/it][A
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                        | 112/125 [07:27<00:53,  4.15s/it][A
+ 90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                      | 113/125 [07:31<00:48,  4.07s/it][A
+ 91%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                    | 114/125 [07:35<00:44,  4.02s/it][A
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                  | 115/125 [07:39<00:39,  3.98s/it][A
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                | 116/125 [07:43<00:35,  3.94s/it][A
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏              | 117/125 [07:47<00:32,  4.02s/it][A
+ 94%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████             | 118/125 [07:51<00:28,  4.07s/it][A
+ 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉           | 119/125 [07:55<00:24,  4.11s/it][A
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊         | 120/125 [07:59<00:20,  4.14s/it][A
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌       | 121/125 [08:04<00:16,  4.22s/it][A
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍     | 122/125 [08:08<00:12,  4.22s/it][A
+ 98%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎   | 123/125 [08:12<00:08,  4.21s/it][A
+ 99%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏ | 124/125 [08:16<00:04,  4.20s/it][A
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 125/125 [08:20<00:00,  4.11s/it][A                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                              [A{'eval_loss': 1.7690980434417725, 'eval_auc': 1.0, 'eval_runtime': 504.6142, 'eval_samples_per_second': 1.982, 'eval_steps_per_second': 0.248, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [08:30<00:00,  5.94s/it]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 125/125 [08:20<00:00,  4.11s/it][A
+                                                                                                                                                                                                                                                                              [A                                                                                                                                                                                                                                                                              {'train_runtime': 820.0734, 'train_samples_per_second': 0.005, 'train_steps_per_second': 0.001, 'train_loss': 0.4459837079048157, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [13:40<00:00,  5.94s/it]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [13:40<00:00, 820.08s/it]
+> /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/TALLRec/finetune_rec.py(327)train()
+-> print(
+(Pdb) l
+322  	    # trainer.log_metrics("train",metrics)
+323  	    # trainer.save_metrics("train",metrics)
+324  	
+325  	    model.save_pretrained(output_dir)
+326  	    pdb.set_trace()
+327  ->	    print(
+328  	        "\n If there's a warning about missing keys above, please disregard :)"
+329  	    )
+330  	
+331  	
+332  	def generate_prompt(data_point):
+(Pdb) n
+> /scratch/AzureNfsServer_INPUT1/multimedia-nfs/mahajiag/TALLRec/finetune_rec.py(328)train()
+-> "\n If there's a warning about missing keys above, please disregard :)"
+(Pdb) c
+
+ If there's a warning about missing keys above, please disregard :)
+[01;32maiscuser@node-0[00m:[01;34m/multimedia-nfs/mahajiag/TALLRec[00m$ ls -alt[Kh
+total 1.7M
+drwxrwxr-x 10 aiscuser aiscuser 4.0K Jul 22 12:55  [0m[01;34m.[0m
+drwxr-xr-x 25 aiscuser aiscuser 4.0K Jul 16 11:19  [01;34m..[0m
+-rw-rw-r--  1 aiscuser aiscuser 3.3K Jun 28 16:26 '=4.28.0'
+drwxrwxr-x  4 aiscuser aiscuser 4.0K Jun 28 13:42  [01;34mdata[0m
+-rw-rw-r--  1 aiscuser aiscuser 7.0K Jul 22 09:32  evaluate.py
+-rw-rw-r--  1 aiscuser aiscuser 1.5K Jun 28 13:42  export_hf_checkpoint.py
+-rw-rw-r--  1 aiscuser aiscuser 3.6K Jun 28 13:42  export_state_dict_checkpoint.py
+-rw-rw-r--  1 aiscuser aiscuser  12K Jun 28 13:42  finetune_multi_rec.py
+-rw-rw-r--  1 aiscuser aiscuser 9.6K Jun 28 13:42  finetune.py
+-rw-rw-r--  1 aiscuser aiscuser  14K Jul 22 13:03  finetune_rec.py
+drwxrwxr-x  8 aiscuser aiscuser 4.0K Jun 2

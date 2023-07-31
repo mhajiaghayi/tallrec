@@ -1,0 +1,27 @@
+info: https://huggingface.co/docs/transformers/v4.18.0/en/main_classes/text_generation 
+
+(Pdb) print(s.shape)
+torch.Size([8, 266])
+
+(Pdb) inputs['input_ids'].shape
+torch.Size([8, 263])
+
+generation_config = GenerationConfig(
+    temperature=temperature,
+    top_p=top_p,
+    top_k=top_k,
+    num_beams=num_beams,
+    **kwargs,
+)
+with torch.no_grad():
+    generation_output = model.generate(
+        **inputs,
+        generation_config=generation_config,
+        return_dict_in_generate=True,
+        output_scores=True,
+        max_new_tokens=max_new_tokens,
+        # batch_size=batch_size,
+    )
+no beam search
+num_beams (int, optional, defaults to 1) — Number of beams for beam search. 1 means no beam search.
+ max_new_tokens=128, 
